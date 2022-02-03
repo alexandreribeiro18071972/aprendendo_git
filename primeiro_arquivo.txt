@@ -1,0 +1,16 @@
+Aprendi no aulas GIT que o sistema é feito para o versionamento dos arquivos, o que permite um maior controle sobre as versões que estão sendo implementadas/atualizadas.
+Os principais comandos apreendidos foram:
+Git Init - para inicializar o GIT
+Git Clone - para clonar um repositório para meu ambiente local, criando uma cópia.
+Git Status - para verificar se possuo algum arquivo alterado que precise ser comitado
+Git Commit - para comitar os arquivos e "salvar" as alterações feitas
+Git Push - para enviar os arquivos alterados para o repositório remoto
+Git Add - para incluir os arquivos que serão enviados no Git Push para o repositório remoto
+Git Pull - para "baixar" a última versão dos arquivos que estão armazenados no repositório remoto
+Git Log - para verificar os commits que já foram feitos
+Git revert - para retornar a última versão anterior a commit atual
+Git config - para realizar as configurações do GIT como pro exemplo user.name e user.email
+Git Branch - para saber em qual branch eu estou no momento ou criar e excluir branch
+Git Tag - para incluir uma tag, principalmente para controle da versão que está sendo atualizada
+Git Diff - para verificar as diferenças entre as versões
+Git Rm - para excluir arquivos 

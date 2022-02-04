@@ -1,25 +1,149 @@
 <html>
-    <!-- Cabeçalho -->
-    <head>
-        <!-- Metadados -->
-        <title>Aprendendo HTML - Newtab Academy</title>
-        <meta name="author" content="Alexandre Ribeiro" charset="UTF-8">
-        <link rel="icon" href="alert_icon.gif">
-        <style type="text/css">
-            /*Todo código aqui dentro é CSS!*/
-            body {
-                background: lightblue;
-            }
-        </style>
-        <script type=""text/javascript" src="script.js">
-            alert("Dentro da Página")
-        </script>
+<!-- Cabeçalho -->
+
+<head>
+    <!-- Metadados -->
+    <title>Aprendendo HTML - Newtab Academy</title>
+    <meta name="author" content="Alexandre Ribeiro" charset="UTF-8" />
+    <link rel="icon" href="alert_icon.gif" />
+    <style type="text/css">
+        /*Todo código aqui dentro é CSS!*/
+        body {
+            background: lightblue;
+        }
+        
+        spam {
+            color: red
+        }
+        
+        #div1 {
+            
+            background-color: yellowgreen;
+        }
+        #div2 {
+            background-color: aliceblue;
+        }
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            color:brown
+        }
+    </style>
+    <script type="text/javascript" src="script.js">
+        alert("Dentro da Página")
+    </script>
+    <!--
         <script type="text/javascript">
             alert("Clique em OK para abrir a Página")
         </script>
-    </head>
-    <body>
-        <!-- Contéudo -->
-        olá!
-    </body>
+    -->
+</head>
+
+<body>
+    <!-- Contéudo -->
+    <h1>Título Principal</h1>
+    <h2>Sub-Título</h2>
+    <h3>Sub 3</h3>
+    
+    <img src="https://www.newtab.academy/wp-content/uploads/2020/08/logo-colorido@2x.png" alt="Newtab Academy" width="200px" height="auto" />
+    
+    <div id="div1">
+        <p id="primeiro">
+            1- <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de
+            impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de
+            tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco
+            séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se
+            popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais
+            recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </p>
+    </div>
+    
+    <br/>
+    <br/>
+    <div id="div2">
+        <h2>Listas</h2>
+        <ul>
+            <li>Item1</li>
+            <li>item2</li>
+            <li>Item3
+                <ul>
+                    <li>Subitem1</li>
+                    <li>Subitem2</li>
+                    <li>Subitem3</li>
+                </ul>
+            </li>
+        </ul>
+        <ol>
+            <li>Item1</li>
+            <li>item2</li>
+            <li>Item3
+                <ol>
+                    <li>Subitem1</li>
+                    <li>Subitem2</li>
+                    <li>Subitem3</li>
+                </ol>
+            </li>
+        </ol>
+        <h2>Select</h2>
+        <select id="vegetais">
+            <optgroup label="Frutas">
+                <option value="a">Banana</option>
+                <option value="b">Laranja</option>
+                <option value="c">Manga</option>
+            </optgroup>
+            
+            <optgroup label="Legumes">
+                <option value="d">Brócolis</option>
+                <option value="e">Chuchu</option>
+                <option value="f" selected>Cenoura</option>
+            </optgroup>
+        </select>
+        <form>
+            <label>Nome:</label>
+            <input type="text" />
+            <label>Telefone:</label>
+            <input type="tel">
+            <label>E-mail:</label>
+            <input type="email">
+            <label>Mensagem:</label>
+            <textarea></textarea>
+            <button>Enviar</button>
+            
+        </form>
+        <!--
+            <h2>Tabela</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Senha</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>           
+                    <tr>
+                        <td>
+                            <label for="labelNome">Nome:</label>
+                            <input type="text" id="labelNome" name="labelNome" placeholder="Digite seu nome"/>
+                        </td>
+                        <td><input type="password" placeholder="Digite sua senha"/></td>
+                        <td><input type="tel" placeholder="Digite seu telefone" /></td>
+                        <td>
+                            <textarea placeholder="Digite seu endereço"></textarea>
+                        </td>
+                        <td><button>Editar</button> <button>Deletar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        -->
+        
+    </div>
+    <br/>
+    <a href="http://google.com" target="_blank" ><strong>Pesquise no Google</strong></a>
+    <br/>
+    
+</body>
+
 </html>
